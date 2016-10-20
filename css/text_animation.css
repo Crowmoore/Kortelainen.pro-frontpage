@@ -10,7 +10,8 @@
 }
 
 @keyframes coding-anim {
-	0%   { left:2500px; top:100px; }
+	0%   { left:2500px; top:100px; opacity: 0;}
+	75%  { opacity: 1; }
 	100% { left:500px; top:100px; }
 }
 
@@ -27,7 +28,8 @@
 }
 
 @keyframes games-anim {
-	0%   { left:2500px; top:100px; }
+	0%   { left:2500px; top:100px; opacity: 0;}
+	75%  { opacity: 1; }
 	100% { left:670px; top:100px; }
 }
 
@@ -44,7 +46,8 @@
 }
 
 @keyframes general-anim {
-	0%   { left:-500px; top:140px; }
+	0%   { left:-500px; top:140px; opacity: 0;}
+	75%  { opacity: 1; }
 	100% { left:500px; top:140px; }
 }
 
@@ -62,7 +65,8 @@
 }
 
 @keyframes kortelainen-anim {
-	0%   { left:2500px; top:230px; }
+	0%   { left:2500px; top:230px; opacity: 0;}
+	75%  { opacity: 1; }
 	100% { left:500px; top:230px; }
 }
 
