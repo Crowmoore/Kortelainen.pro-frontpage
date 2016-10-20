@@ -1,12 +1,71 @@
 <!DOCTYPE HTML>
 
 <html>
+
 	<head>
 
   		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
-  		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>	
+  		<link rel="stylesheet" href="css/frontpage.css" type="text/css">
           
 	</head>
+
+	<body>
+
+		<div class="parallax-container" style="height: 200px">
+			<div class="parallax"><img src="https://placekitten.com/1900/500"></div>
+		</div>
+
+		<section class="container">
+
+			<section class="card face-card">
+
+			<header class="card-image">
+				<img src="https://placekitten.com/300/200">
+				<span class="card-title">Joel Kortelainen</span>
+			</header>
+				<div class="card-content">
+					<p>Loren ipsum Loren ipsum Loren ipsum Loren ipsum</p>
+				</div>
+
+				<footer class="card-action">
+					<a href="#">a link</a>
+				</footer>
+
+			</section>
+
+			<section class="card face-card">
+
+				<header class="card-image">
+					<img src="https://placekitten.com/300/200">
+					<span class="card-title">Niko Kortelainen</span>
+				</header>
+
+				<div class="card-content">
+					<p>Loren ipsum Loren ipsum Loren ipsum Loren ipsum</p>
+				</div>
+
+				<footer class="card-action">
+					<a href="#">a link</a>
+				</footer>
+				
+			</section>
+
+		</section>
+
+			<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+			<script>
+				$(document).ready(function() {
+					$('.parallax').parallax();
+				});
+			</script>
+
+<!--$(document).ready(function() {
+				$('.parallax').parallax();
+			}); -->
+
+	</body>
 
 
 </html

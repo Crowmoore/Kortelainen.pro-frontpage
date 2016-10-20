@@ -1,0 +1,10 @@
+.face-card {
+	width: 300px;
+	margin: 50px;	
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
