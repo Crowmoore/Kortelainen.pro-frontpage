@@ -17,3 +17,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.container {
+	margin-top: 300px;
+}
+
+body {
+	max-width: 1200px;
+	background: black url("../images/banner.jpg") no-repeat center top;
+}
+
+.css-title {
+	position: relative;
+	width: 50%;
+	left: 20%;
+	top: 120px;
+}

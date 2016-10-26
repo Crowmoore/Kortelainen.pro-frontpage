@@ -1,26 +1,27 @@
 .coding {
-	position: absolute;
-	top: 100px;
-	left: 2500px;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 2.5em;
 	color: white;
 	text-shadow: 2px 2px 1px rgba(75, 75, 75, 0.5);
 	animation: coding-anim 2s ease forwards;
 }
 
 @keyframes coding-anim {
-	0%   { left:2500px; top:100px; opacity: 0;}
-	75%  { opacity: 1; }
-	100% { left:500px; top:100px; }
+	0%   { opacity: 0;}
+	100% { opacity: 1;}
 }
 
 .games {
 	position: absolute;
-	top: 100px;
-	left: 2500px;
+	top: 0px;
+	left: 160px;
+	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 2.5em;
 	color: white;
 	text-shadow: 2px 2px 1px rgba(75, 75, 75, 0.5);
 	animation: games-anim 2s ease forwards;
@@ -28,17 +29,18 @@
 }
 
 @keyframes games-anim {
-	0%   { left:2500px; top:100px; opacity: 0;}
-	75%  { opacity: 1; }
-	100% { left:670px; top:100px; }
+	0%   { opacity: 0;}
+	100% { opacity: 1;}
 }
 
 .general {
 	position: absolute;
-	top: 140px;
-	left: -500px;
+	top: 40px;
+	left: 0px;
+	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 50px;
+	font-size: 2.8em;
+	white-space: nowrap;
 	color: white;
 	text-shadow: 2px 2px 1px rgba(75, 75, 75, 0.5);
 	animation: general-anim 2s ease forwards;
@@ -46,17 +48,18 @@
 }
 
 @keyframes general-anim {
-	0%   { left:-500px; top:140px; opacity: 0;}
-	75%  { opacity: 1; }
-	100% { left:500px; top:140px; }
+	0%   { opacity: 0;}
+	100% { opacity: 1;}
 }
 
 .kortelainen-pro {
 	position: absolute;
-	top: 230px;
-	left: 2500px;
+	top: 130px;
+	left: 0px;
+	opacity: 0;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 2em;
+	white-space: nowrap;
 	color: white;
 	font-weight: 400;
 	text-shadow: 2px 2px 1px rgba(75, 75, 75, 0.5);
@@ -65,15 +68,15 @@
 }
 
 @keyframes kortelainen-anim {
-	0%   { left:2500px; top:230px; opacity: 0;}
-	75%  { opacity: 1; }
-	100% { left:500px; top:230px; }
+	0%   { opacity: 0;}
+	100% { opacity: 1;}
 }
 
 .line {
 	position: absolute;
-	top: 220px;
-	left: 500px;
+	top: 115px;
+	left: 0px;
+	opacity: 0;
 	height: 5px;
 	width: 460px;
 	opacity: 0;

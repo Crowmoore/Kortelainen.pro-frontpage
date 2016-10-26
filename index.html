@@ -10,8 +10,7 @@
   </head>
   <body>
 
-    <header class="parallax-container" style="height: 400px">
-      <div class="parallax"><img src="images/kukot_cropped.jpg"></div>
+    <header class="css-title">
       <span class="coding">Coding,</span>
       <span class="games">Games,</span>
       <span class="general">General ramblings</span>
@@ -20,22 +19,22 @@
     </header>
 
     <main class="container">
-      <section class="card face-card">
+      <section class="card face-card hoverable">
         <header class="card-image">
-          <img src="https://placekitten.com/300/200">
+          <img src="images/j_face.jpg">
           <span class="card-title">Joel Kortelainen</span>
         </header>
         <div class="card-content">
-          <p>Loren ipsum Loren ipsum Loren ipsum Loren ipsum</p>
+          <p>Software engineering student and a future indie game developer</p>
         </div>
         <footer class="card-action">
           <a href="#">a link</a>
         </footer>
       </section>
 
-      <section class="card face-card">
+      <section class="card face-card hoverable">
         <header class="card-image">
-          <img src="https://placekitten.com/300/200">
+          <img class="card-image" src="images/n_face.jpg">
           <span class="card-title">Niko Kortelainen</span>
 	</header>
 	<div class="card-content">
@@ -47,20 +46,8 @@
       </section>
     </main>
 
-    <footer class="page-footer">
-      <div class="container page-footer-content">
-        <p>kortelainen.pro powered by Materialize</p>
-      </div>
-    </footer>
-
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
-
-    <script>
-      $(document).ready(function() {
-        $('.parallax').parallax();
-      });
-    </script>
 
   </body>
 </html>
