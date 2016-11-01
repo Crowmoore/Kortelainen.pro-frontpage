@@ -31,7 +31,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .face-card {
     width: 300px;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .splash {
@@ -71,5 +74,26 @@ h1, h2, h3, h4, h5, h6 {
     }
     .face-card {
         margin: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .splash {
+        margin-top: 10px;
+    }
+    .card-container {
+        margin-top: 40px;
+    }
+    .face-card {
+        margin: 10px;
+    }
+    .splash-large-font {
+        font-size: 32px;
+    }
+    .splash-small-font {
+        font-size: 24px;
+    }
+    .splash-group-margin {
+        margin-bottom: -17px;
     }
 }
