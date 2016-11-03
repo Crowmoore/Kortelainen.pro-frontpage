@@ -1,9 +1,5 @@
 body {
     background-color: black;
-    background-image: url("../images/banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: contain;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -16,6 +12,19 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.with-banner {
+    background-image: -webkit-linear-gradient(left,
+                                              rgba(0,0,0,1) 0%,
+                                              rgba(0,0,0,0.7) 5%,
+                                              rgba(0,0,0,0) 50%,
+                                              rgba(0,0,0,0.7) 95%,
+                                              rgba(0,0,0,1) 100%),
+                                              url("../images/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
 }
 
 .card-container {
